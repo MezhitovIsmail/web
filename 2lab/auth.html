@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма аутентификации</title>
+    <link rel="stylesheet" href="stylesform/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <form action="https://httpbin.org/post" method="POST" enctype="multipart/form-data">
+        <div class="container">
+          <h1 class="h1">Авторизация</h1>
+          <p>Заполните форму чтобы авторизироваться</p>
+          <hr>
+      
+          <div class="form-group">
+            <label class="form-label" for="login">Логин</label>
+            <input id="login" type="text" name="login" placeholder="Введите логин" required >
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="login">Пароль</label>
+            <input id="password" type="password" name="password" placeholder="Введите пароль" required >
+          </div>
+
+          <div class="form-group">
+            <input type="checkbox" name="agreement" id="agreement" value="yes">
+            <label for="agreement">Запомнить меня</label>
+
+          </div>
+          
+          <button type="submit" class="btn">Войти</button>
+        </div>
+      
+        
+      </form>
+</body>
+</html>
