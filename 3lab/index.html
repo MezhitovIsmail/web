@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Интернет-магазин</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="main-menu">
+                <div class="navigation">
+                    <a href="index.html">Главная</a>
+                </div>
+                <div class="profile">
+                    <a href="auth.html">Вход</a>
+                    <a href="reg.html">Регистрация</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Категории игр</h1>
+            <div class="flex-wrapper">
+                <aside class="sidebar">
+                    <form>
+                        <section>
+                            <h3>Категории</h3>
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" name="manufacturer" value="1"> Лидеры
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" name="manufacturer" value="2"> Новинки
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" name="manufacturer" value="4"> Скидки
+                                </label>
+                            </div>
+                        </section>
+                        <section>
+                            <h3>Жанр</h3>
+                            <div class="form-group">
+                                <label>
+                                    <input type="radio" name="manufacturer" value="1"> Гонки
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    <input type="radio" name="manufacturer" value="2"> Инди
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    <input type="radio" name="manufacturer" value="3"> ММО
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    <input type="radio" name="manufacturer" value="4"> Экшен
+                                </label>
+                            </div>
+                        </section>
+                        <div class="form-group">
+                            <input class="btn" type="submit" value="Применить">
+                        </div>
+                    </form>
+                </aside>
+                <div >
+                    <section class="goods-list">
+                        <div class="good">
+                            <div class="good-img">
+                                <img src="../3lab/images/cs.jpg"> <!--картинки-->
+                            </div>
+                            <div class="good-description">
+                                <p>Более двух десятилетий Counter-Strike служит примером первоклассной соревновательной игры, путь развития которой определяют миллионы игроков со всего мира. Теперь пришло время нового этапа — Counter-Strike 2</p>
+                            </div>
+                            <div class="price-and-buy">
+                                <div class="price">1000 руб.</div><a class="buy-btn" href="#">Заказать</a>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <div class="good-img">
+                                <img src="../3lab/images/eu.jpg"> <!--картинки-->
+                            </div>
+                            <div class="good-description">
+                                <p>Станьте королем европейских дорог — водителем грузовика, который доставляет важные грузы на немалые расстояния! Вас ждут десятки городов Великобритании, Бельгии, Германии, Италии, Нидерландов, Польши и не только. Испытайте свои умения, выносливость и скорость.</p>
+                            </div>
+                            <div class="price-and-buy">
+                                <div class="price">2000 руб.</div><a class="buy-btn" href="#">Заказать</a>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <div class="good-img">
+                                <img src="../3lab/images/dota.jpg"> <!--картинки-->
+                            </div>
+                            <div class="good-description">
+                                <p>Ежедневно миллионы игроков по всему миру сражаются от лица одного из более сотни героев Dota 2, и даже после тысячи часов в ней есть чему научиться. Благодаря регулярным обновлениям игра живёт своей жизнью: геймплей, возможности и герои постоянно преображаются.</p>
+                            </div>
+                            <div class="price-and-buy">
+                                <div class="price">700 руб.</div><a class="buy-btn" href="#">Заказать</a>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <div class="good-img">
+                                <img src="../3lab/images/ba.jpg"> <!--картинки-->
+                            </div>
+                            <div class="good-description">
+                                <p>Соберите отряд и вернитесь в Забытые Королевства. Вас ждет история о дружбе и предательстве, выживании и самопожертвовании, о сладком зове абсолютной власти.</p>
+                            </div>
+                            <div class="price-and-buy">
+                                <div class="price">3000 руб.</div><a class="buy-btn" href="#">Заказать</a>
+                            </div>
+                        </div>
+                        
+                    </section>
+                    <div class="pagination">
+                        <a class="btn active" href="#">1</a>
+                        <a class="btn" href="index2.html">2</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy;Valve Corporation</p>
+        </div>
+    </footer>
+</body>
+</html>
